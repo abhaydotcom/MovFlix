@@ -1,12 +1,14 @@
-# React + Vite
+The React Movie Website is a feature-rich, interactive web application that provides users with an immersive movie discovery experience. It integrates a Movie API to fetch real-time data, allowing users to browse trending movies, search for specific titles, view detailed movie information, and watch trailers directly from YouTube. Additionally, the application implements pagination to enhance performance and improve the browsing experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Real-Time Movie Data – Fetches movie details, ratings, and posters from an API.
+✔ YouTube Trailer Playback – Users can watch trailers directly on the platform.
+✔ Search Functionality – Allows users to search for movies dynamically.
+✔ Pagination Implementation – Loads movies efficiently to optimize performance.
+✔ Smooth Animations – Uses Framer Motion for an enhanced UI experience.
+✔ State Management – Implements Redux for handling global state effectively.
+✔ Responsive UI – Fully optimized for mobile and desktop screens.
+✔ Navigation System – Uses React Router for smooth page transitions
