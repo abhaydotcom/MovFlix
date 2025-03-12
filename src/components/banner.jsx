@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 import { useSelector } from 'react-redux'
 import Loading from './loading'
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
 
@@ -74,11 +75,11 @@ const Banner = () => {
                                         <p>View: {Number(data.popularity).toFixed(0)}</p>
                                 </div>
 
-                                    <div>
+                                    <Link to={'/'+data?.media_type+'/'+data.id}>
                                         <button className='bg-white px-4 py-2 text-black font-blod rounded mt-4 hover:bg-gradient-to-l from-red-700 to-orange-500 transition-all hover:scale-104   '>
                                             Play Now
                                         </button>
-                                    </div>
+                                    </Link>
                             </div>
                             </div>
                            

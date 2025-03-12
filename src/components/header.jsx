@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from "../assets/logo.png"
+ 
 import user from "../assets/user.png"
 import {Link, NavLink ,useLocation,useNavigate} from "react-router-dom"
 import { IoSearchOutline } from 'react-icons/io5'
@@ -55,7 +55,8 @@ const Header = () => {
     className=' fixed top-0 w-full h-16  bg-black/60   z-40'>
       <div className='container mx-auto px-5 flex items-center h-full'>
         <Link to={'/'}  >
-          <img src={logo} alt="Logo img" width={120}  />
+          {/* <img src={logo} alt="Logo img" width={120}  /> */}
+          <h1 className='text-3xl font-bold text-purple-600 mb-2'>ᴍᴏᴠꜰʟɪχ</h1>
         </Link>
 
       <nav className='hidden lg:flex items-center gap-3 ml-5 '>
@@ -87,9 +88,7 @@ const Header = () => {
             </button>
           </form>
 
-        <div className='w-8 h-8 overflow-hidden rounded-full transition-all cursor-pointer active:scale-50'>
-          <img src={user} alt="userPng" className='w-full h-full' />
-        </div>
+      
 
       </div>
 
