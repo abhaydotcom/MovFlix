@@ -12,3 +12,7 @@ Key Features:
 ✔ State Management – Implements Redux for handling global state effectively.
 ✔ Responsive UI – Fully optimized for mobile and desktop screens.
 ✔ Navigation System – Uses React Router for smooth page transitions
+
+
+
+website live link : https://movflix4u.vercel.app
